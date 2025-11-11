@@ -1,0 +1,43 @@
+#  Global COVID-19 Tracker (Power BI Dashboard)
+
+##  Project Overview
+This Power BI dashboard visualizes the global spread and impact of COVID-19 using the **WHO COVID-19 dataset**.  
+The goal of the report is to provide an interactive and data-driven view of:
+
+- Total and new daily COVID-19 cases
+- Total and new deaths
+- Global death rate percentage
+- Country and regional comparisons
+- Time-series trends (daily & cumulative)
+- 7-day moving average smoothing
+- Heat and filled maps for visual geographic analysis
+
+The dashboard allows users to explore the data at **global, regional, and country level** and observe how cases evolve over time.
+
+---
+
+##  Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **KPI Cards** | Shows cumulative cases, cumulative deaths, and global death rate (%) |
+| **Time-Series Charts** | Tracks cases, deaths, and 7-day average over time |
+| **Map Visualization** | Filled map illustrating impact across countries |
+| **Interactive Filters** | Slice by Date, Country, or WHO Region |
+| **DAX Measures Used** | Cumulative cases, cumulative deaths, death rate %, moving averages |
+| **Date Dimension Table** | Created using DAX and marked as a Date table to support time intelligence |
+
+---
+
+##  Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| **Power BI Desktop** | Dashboard development & DAX modeling |
+| **DAX** | Calculated measures (Running totals, Percent calculations, 7-day Avg) |
+| **WHO COVID-19 Dataset** | Source data (CSV) |
+
+---
+
+
+
